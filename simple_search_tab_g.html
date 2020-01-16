@@ -1,19 +1,6 @@
 <html>
   <head>
-    <script type="text/javascript">
-        // workaround for Chrome forcing autofocus to omnibar
-        // based on http://stackoverflow.com/a/10752321
-        function gainFocusIfNeeded() {
-            if (document.hasFocus) {
-                setInterval("reloadToGainFocus", 150);
-            }
-        }
-        function reloadToGainFocus() {
-            if (!document.hasFocus ()) {
-                document.location.reload();
-            }            
-        }
-    </script>
+    <script type="text/javascript" src="simple_search_tab_g.js"></script> 
     <style>
 .sbox {
 	position: absolute;

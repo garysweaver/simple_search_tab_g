@@ -2,10 +2,15 @@
   "manifest_version": 2,
   "name": "Simple Search Tab G",
   "short_name": "Simple Search Tab G",
-  "version": "1.0.7",
-  "description": "Chromium extension to provide a simple search form for querying Google when you open a new tab.",
+  "version": "2.0.0",
+  "description": "Simple search form to query Google when you open a new tab.",
   "homepage_url": "https://github.com/garysweaver/simple_search_tab_g",
   "chrome_url_overrides": {"newtab": "simple_search_tab_g.html"},
-  "incognito": "split",
-  "minimum_chrome_version": "22"
+  "minimum_chrome_version": "22",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "simple_search_tab_g.garysweaver@example.com",
+      "strict_min_version": "54.0"
+    }
+  }
 }
