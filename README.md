@@ -1,6 +1,6 @@
 # Simple Search Tab G
 
-A Firefox add-on and [Chromium extension](https://chrome.google.com/webstore/detail/simple-search-tab-g/lcpkkflflcnmopgfnblecldioafbhebf) to provide a simple search form for querying Google when you open a new tab.
+A [Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/simple-search-tab-g/) and [Chromium extension](https://chrome.google.com/webstore/detail/simple-search-tab-g/lcpkkflflcnmopgfnblecldioafbhebf) to provide a simple search form for querying Google when you open a new tab.
 
 ![Simple Search Tab Screenshot](/screenshot.png?raw=true "Simple Search Tab")
 
